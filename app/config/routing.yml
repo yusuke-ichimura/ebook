@@ -1,0 +1,9 @@
+acme_ebook:
+    resource: "@AcmeEbookBundle/Resources/config/routing.xml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+
