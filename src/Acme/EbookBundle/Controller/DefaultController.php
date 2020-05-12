@@ -39,7 +39,6 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-//         return array();
 
         $url = 'test';
 
@@ -48,10 +47,5 @@ class DefaultController extends Controller
                 'url' =>$url, //変数
             ];
 
-//         $number = rand(0, 100);
-
-//         return new Response(
-//             '<html><body>Lucky number: '.$number.'</body></html>'
-//             );
     }
 }
